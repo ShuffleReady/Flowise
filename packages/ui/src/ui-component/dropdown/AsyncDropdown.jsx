@@ -184,6 +184,7 @@ export const AsyncDropdown = ({
                 disableClearable={disableClearable}
                 multiple={multiple}
                 filterSelectedOptions={multiple}
+                autoHighlight
                 size='small'
                 sx={{ mt: 1, width: fullWidth ? '100%' : multiple ? '90%' : '100%' }}
                 open={open}

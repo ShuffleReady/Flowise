@@ -36,6 +36,7 @@ export const MultiDropdown = ({ name, value, options, onSelect, formControlSx = 
                 id={name}
                 disabled={disabled}
                 disableClearable={disableClearable}
+                autoHighlight
                 size='small'
                 multiple
                 filterSelectedOptions

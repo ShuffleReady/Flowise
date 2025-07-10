@@ -32,6 +32,7 @@ export const Dropdown = ({ name, value, loading, options, onSelect, disabled = f
                 disabled={disabled}
                 freeSolo={freeSolo}
                 disableClearable={disableClearable}
+                autoHighlight
                 size='small'
                 loading={loading}
                 options={options || []}
